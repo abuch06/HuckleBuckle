@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@font-face {
+	font-family: "Super Mario Brothers";
+    src: url(Super Mario Brothers.ttf) format('ttf');
+}
+
+body, html {
+	height: 100%;	
+}
+
+#header{
+	text-align: center;
+	padding: 20px;
+}
+
+
+.wrapper {
+	background: url(img/background.jpg) repeat-x;
+	text-align: center;
+	height: 100%;
+}
+
+h1 {
+	font-family: "Super Mario Brothers";
+	font-size: 80px;
+	font-weight: 600;
+	color: #111;
+	
+}
+
+h2 {
+	position: relative;
+	top: -40px;
+}
+
+#coinBoxes {
+	margin-top: 60px;
+	height: 60px;
+	width: 100%;
+}
+#mario{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 70px;
+	margin-top: 172px;
+}
+
+#mario-jump{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 90px;
+	margin-top: 170px;
+	display:none;
+}
+
+.mario-left{
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        }
+
+.mario-jump-left{
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+
+
+#coinBox {
+    position: relative;
+	height: 60px;
+	margin: 0px 2.5px;
+
+}
+
+.coin {
+    position: relative;
+	height: 60px;
+	display:none;
+}
+
+
+.oneup {
+    position: relative;
+	display:none;
+}
+
+#win {
+	font-family: "Super Mario Brothers";
+	font-size: 80px;
+	position: relative;
+	top: -250px;
+	border: 5px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	padding-top: 25px;
+	background-color: white;
+	margin: auto;
+	width: 500px;
+	display: none;
+}
+
